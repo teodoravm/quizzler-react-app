@@ -1,7 +1,6 @@
-import React, { component, Suspense, lazy} from 'react';
-import './Question';
+import React from 'react';
+import Loading from './Loading';
 import Question from './Question';
-import './AllQuestions.css';
 
 
 export default function AllQuestions(props) {
@@ -105,7 +104,7 @@ export default function AllQuestions(props) {
             <div className='result-box'>
                 <h3>You have {rightAnswers}/10 correct answers.</h3>
             </div>}
-            {isLoading ? <div className='empty-screen'><h1>Loading...</h1></div> : <button className='btn-check' onClick={finished ? playAgain : checkAnswers}>
+            {isLoading ? <Loading /> : <button className='btn-check' onClick={finished ? playAgain : checkAnswers}>
                 {finished ? "Play again" : "Check results"}</button> }
     
          </div>

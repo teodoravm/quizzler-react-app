@@ -1,5 +1,4 @@
 import React from 'react';
-import './Question.css';
 import {decode} from 'html-entities';
 
 export default function Question(props) {
@@ -13,20 +12,18 @@ export default function Question(props) {
     }, [props.isLoading])
    
     const answerElements = props.allAnswers.map(answer => {
-        
         return (
             <div onClick={() => clickAnswer(answer, props.question)}
                 className={`unselected 
                 ${!props.finished && answer === props.selectedAnswer ? "selected" : ""}
                 ${props.finished && answer===props.selectedAnswer &&
                     answer != props.correctAnswer ? "incorrect" : ""}
-                ${props.finished &&  answer===props.correctAnswer ? "correct" : ""}
+                ${props.finished && answer===props.correctAnswer ? "correct" : ""}
+
                 `}>{decode(answer)}
             </div>
-                )
+             )
     })
-
-    
 
     return (
         <div className='question-box'>

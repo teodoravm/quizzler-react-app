@@ -1,5 +1,5 @@
 import './MainScreen.js';
-import './App.css';
+import './index.css';
 import React from 'react';
 import AllQuestions from './AllQuestions.js';
 import MainScreen from './MainScreen.js';
