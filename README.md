@@ -16,8 +16,8 @@
 To get a local copy of the code, clone it using git:
 
 ```
-git clone https://github.com/SafdarJamal/quiz-app.git
-cd quiz-app
+git clone https://github.com/teodoravm/quizzler-react-app
+cd quizzler-react-app
 ```
 
 Install dependencies:
