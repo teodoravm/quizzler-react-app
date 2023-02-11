@@ -1,11 +1,11 @@
 <h1 align="center">
-  <a href="https://luxury-dango-41c785.netlify.app/">
+  <a href="https://exquisite-malasada-d3a80d.netlify.app/">
     Quizzler
   </a>
 </h1>
 
 <p align="center">
-  Quizzler is an app that tests your knowledge on various topics right in the browser. <a href="https://luxury-dango-41c785.netlify.app/">Try it out</>
+  Quizzler is an app that tests your knowledge on various topics right in the browser. <a href="https://exquisite-malasada-d3a80d.netlify.app/">Try it out</>
 </p>
 
 ## Built with
